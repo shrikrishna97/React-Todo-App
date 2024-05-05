@@ -57,7 +57,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/"
+            path="/home_page"
             render={() => {
               return (
                 <>
@@ -67,7 +67,7 @@ function App() {
               );
             }}
           ></Route>
-          <Route exact path="/about">
+          <Route exact path="/about_page">
             <About />
           </Route>
         </Switch>
