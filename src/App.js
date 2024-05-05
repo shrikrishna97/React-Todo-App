@@ -57,7 +57,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path="React-Todo-App/home_page"
+            path="/"
             render={() => {
               return (
                 <>
@@ -67,7 +67,7 @@ function App() {
               );
             }}
           ></Route>
-          <Route exact path="React-Todo-App/about_page">
+          <Route exact path="/about">
             <About />
           </Route>
         </Switch>
