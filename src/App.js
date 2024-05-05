@@ -6,7 +6,7 @@ import Todos from "./Components/todos.js";
 import React, { useEffect, useState } from "react";
 import AddTodo from "./Components/addTodo.js";
 import About from "./Components/About.js";
-import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const m = "Shri Krishna App";
@@ -51,9 +51,11 @@ function App() {
           <div>{m}</div>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            <code>Hello to Todo App by Shri</code> 
+            <code>Hello to Todo App by Shri</code>
           </p>
         </header>
+        <AddTodo addTodo={addTodo} />
+        <Todos todo={todo} onDelete={onDelete} />
         <Switch>
           <Route
             exact
