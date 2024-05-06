@@ -59,29 +59,13 @@ function App() {
             </p>
             <div className="container mt-5">
               <h4 className="mb-3">How to Use</h4>
-              <ol className="list-group">
-                <li className="list-group-item">
-                  <strong>Add Todos:</strong> Provide a title and a brief
-                  description, then hit "Submit" to save it.
-                </li>
-                <li className="list-group-item">
-                  <strong>Remove Todos:</strong> Completed a task? Just click on
-                  the delete icon below the todo to remove it from your list.
-                </li>
-              </ol>
-
-              <h4 className="mt-4">Data Privacy</h4>
               <p className="lead">
-                Rest assured, your data privacy is our top priority. The app
-                stores your todos locally in your browser's localStorage,
-                ensuring that your information stays secure and private.
+                <strong>Add Todos:</strong> Provide a title and a brief
+                description, then hit "Submit" to save it.
               </p>
-
-              <h4 className="mt-4">Enjoy Task Management</h4>
               <p className="lead">
-                I hope you find this app useful for organizing your daily tasks
-                efficiently. Feel free to explore and make the most out of
-                React-Todo App!
+                <strong>Remove Todos:</strong> Completed a task? Just click on
+                the delete icon below the todo to remove it from your list.
               </p>
             </div>
           </div>
@@ -97,6 +81,21 @@ function App() {
                 <>
                   <AddTodo addTodo={addTodo} />
                   <Todos todo={todo} onDelete={onDelete} />
+                  <div className="container bg-dark text-light py-1">
+                    <h4 className="mt-5">Data Privacy</h4>
+                    <p className="lead">
+                      Rest assured, your data privacy is our top priority. The
+                      app stores your todos locally in your browser's
+                      localStorage, ensuring that your information stays secure
+                      and private.
+                    </p>
+                    <h4 className="mt-5">Enjoy Task Management</h4>
+                    <p className="lead">
+                      I hope you find this app useful for organizing your daily
+                      tasks efficiently. Feel free to explore and make the most
+                      out of React-Todo App!
+                    </p>
+                  </div>
                 </>
               );
             }}
