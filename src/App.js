@@ -81,7 +81,8 @@ function App() {
                 <>
                   <AddTodo addTodo={addTodo} />
                   <Todos todo={todo} onDelete={onDelete} />
-                  <div className="container bg-dark text-light py-1">
+                  <div className="App-header py-5">
+                    <div className="container">
                     <h4 className="mt-5">Data Privacy</h4>
                     <p className="lead">
                       Rest assured, your data privacy is our top priority. The
@@ -95,6 +96,7 @@ function App() {
                       tasks efficiently. Feel free to explore and make the most
                       out of React-Todo App!
                     </p>
+                    </div>
                   </div>
                 </>
               );
