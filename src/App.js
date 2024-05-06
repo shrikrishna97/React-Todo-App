@@ -59,7 +59,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/todo"
+            path="/"
             render={() => {
               return (
                 <>
@@ -69,7 +69,7 @@ function App() {
               );
             }}
           ></Route>
-          <Route exact path="/about">
+          <Route exact path="src/Components/About.js">
             <About />
           </Route>
         </Switch>

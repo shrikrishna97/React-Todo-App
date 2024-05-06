@@ -11,14 +11,14 @@ export default function header(props) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        {props.title ? <Navbar.Brand href="/React-Todo-App/todo">{props.title}</Navbar.Brand>: "My App"}
+        {props.title ? <Navbar.Brand href="/React-Todo-App/">{props.title}</Navbar.Brand>: "My App"}
         {/* <Navbar.Brand href="#home">{props.title}</Navbar.Brand> */}
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/React-Todo-App/todo">Home</Nav.Link>
-            <Nav.Link href="/React-Todo-App/about">About</Nav.Link>
+            <Nav.Link href="/React-Todo-App/">Home</Nav.Link>
+            <Nav.Link href="/React-Todo-App/src/Components/About.js">About</Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Actions</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
