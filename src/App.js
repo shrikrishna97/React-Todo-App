@@ -71,14 +71,14 @@ function App() {
               </ol>
 
               <h4 className="mt-4">Data Privacy</h4>
-              <p>
+              <p className="lead">
                 Rest assured, your data privacy is our top priority. The app
                 stores your todos locally in your browser's localStorage,
                 ensuring that your information stays secure and private.
               </p>
 
               <h4 className="mt-4">Enjoy Task Management</h4>
-              <p>
+              <p className="lead">
                 I hope you find this app useful for organizing your daily tasks
                 efficiently. Feel free to explore and make the most out of
                 React-Todo App!

@@ -3,7 +3,7 @@ import React from 'react'
 const footer = () => {
   return (
     <div className="text-warning bg-dark">
-      <>CopyRight &copy; Shri Krishna todolist</>
+      <>CopyRight &copy; Shri Krishna </>
     </div>
   )
 }
