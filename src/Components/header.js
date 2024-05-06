@@ -18,7 +18,7 @@ export default function header(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/React-Todo-App/">Home</Nav.Link>
-            <Nav.Link href="/React-Todo-App/src/Components/About.js">About</Nav.Link>
+            {/* <Nav.Link href="/React-Todo-App/src/Components/About.js">About</Nav.Link> */}
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Actions</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
