@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header title="First React App" />
+        <Header title="React-Todo-App" />
         <header className="App-header">
           <div>{m}</div>
           <img src={logo} className="App-logo" alt="logo" />
@@ -59,7 +59,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/todo"
+            path="/React-Todo-App/todo"
             render={() => {
               return (
                 <>
@@ -69,7 +69,7 @@ function App() {
               );
             }}
           ></Route>
-          <Route exact path="/about">
+          <Route exact path="/React-Todo-App/about">
             <About />
           </Route>
         </Switch>
